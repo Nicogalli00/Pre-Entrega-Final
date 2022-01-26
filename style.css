@@ -1,4 +1,25 @@
-.bg-fondo{ background-color: #ff42b9;}
+
+/* Mobile styles */
+/* regla @media */ /*media type */ /*media features*/
+
+
+@media only screen and (max-width: 480px ) { 
+  .bodyy{ background-color: #eeafe9;
+  }}
+
+/*Tablet*/
+
+@media only screen and (min-width: 481px) and (max-width: 968px) { 
+  .bodyy {background-color: #ff99d1
+  }}
+
+/* desktop */ 
+
+@media only screen and (min-width: 969px) { 
+
+  .bodyy {  background-color: #ffffff  ;}}
+
+  .bg-fondo{ background-color: #ff42b9;}
 .caption {
     display: block;
     }
