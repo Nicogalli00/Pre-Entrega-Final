@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-desafio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicogalli00/Trabajo-con-Bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicogalli00/Trabajo-con-Bootstrap/issues"
+  },
+  "homepage": "https://github.com/Nicogalli00/Trabajo-con-Bootstrap#readme",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
