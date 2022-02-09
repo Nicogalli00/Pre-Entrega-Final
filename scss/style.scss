@@ -1,10 +1,10 @@
-@import "../scss/base/media";
 
-@import "../scss/components/header";
+/*@import"./base/mapas";
+*/
 
-@import "../scss/components/footer";
-
-@import "../scss/components/carrusel";
-
-@import "../scss/base/textos";
-  
+@import "./base/mediaquery";
+@import "./base/textos";
+@import"./components/carrusel";
+@import"./components/header";
+@import "./components/footer";
+@import "./components/Articulos";

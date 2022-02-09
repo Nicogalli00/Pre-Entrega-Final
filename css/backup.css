@@ -1,4 +1,24 @@
- .wrapper {
+/* Mobile styles */
+@media only screen and (max-width: 480px) {
+    .bodyy {
+      background-color: #eeafe9;
+    }
+  }
+  @media only screen and (min-width: 481px) and (max-width: 968px) {
+    .bodyy {
+      background-color: #ff99d1;
+    }
+  }
+  @media only screen and (min-width: 969px) {
+    .bodyy {
+      background-color: #ffffff;
+    }
+  }
+  .bg-fondo {
+    background-color: #ff42b9;
+  }
+  
+  .wrapper {
     padding-right: 20px;
     display: flex;
     flex-direction: column;
@@ -84,3 +104,32 @@
   .wrapper .whatsapp:hover .tooltip:before {
     background: #20ff02;
   }
+  
+  #carouselWithControls {
+    padding-top: 10px;
+  }
+  
+  .caption {
+    display: block;
+  }
+  
+  .container {
+    padding-top: 100px;
+  }
+  
+  .listados {
+    height: 200px;
+    width: 200px;
+  }
+  
+  .links {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .p {
+    font-family: Arial;
+  }
+  
+  /*# sourceMappingURL=style.css.map */
+  

@@ -1,18 +1,12 @@
-.caption {
-    display: block;
-    }
-.container{ padding-top: 100px;}
-
-.listados { 
-    height: 200px;
-    width: 200px;
-  }
-  
-.links{     color: white;
-    text-decoration: none;
-}
 .p {
-
     font-family: Arial;
-    
-    }
+  }
+.index1{
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  font-family: Arial;
+}
+.lista{list-style-type:none}

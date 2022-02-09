@@ -1,12 +1,13 @@
-/* Mobile styles */
+/*@import"./base/mapas";
+*/
 @media only screen and (max-width: 480px) {
   .bodyy {
-    background-color: #eeafe9;
+    background-color: #ffffff;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 968px) {
   .bodyy {
-    background-color: #ff99d1;
+    background-color: #ffffff;
   }
 }
 @media only screen and (min-width: 969px) {
@@ -14,8 +15,33 @@
     background-color: #ffffff;
   }
 }
+.p {
+  font-family: Arial;
+}
+
+.index1 {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  font-family: Arial;
+}
+
+.lista {
+  list-style-type: none;
+}
+
+#carouselWithControls {
+  padding-top: 10px;
+}
+
 .bg-fondo {
-  background-color: #ff42b9;
+  background-color: #f56ec3;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
 }
 
 .wrapper {
@@ -105,30 +131,17 @@
   background: #20ff02;
 }
 
-#carouselWithControls {
-  padding-top: 10px;
+.container {
+  padding-top: 100px;
 }
 
 .caption {
   display: block;
 }
 
-.container {
-  padding-top: 100px;
-}
-
 .listados {
   height: 200px;
   width: 200px;
-}
-
-.links {
-  color: white;
-  text-decoration: none;
-}
-
-.p {
-  font-family: Arial;
 }
 
 /*# sourceMappingURL=style.css.map */
