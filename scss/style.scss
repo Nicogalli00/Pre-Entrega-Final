@@ -1,9 +1,9 @@
 
-/*@import"./base/mapas";
-*/
-
+@import"./base/mapas";
+@import "./base/extends";
 @import "./base/mediaquery";
 @import "./base/textos";
+@import "./base/mixin";
 @import"./components/carrusel";
 @import"./components/header";
 @import "./components/footer";

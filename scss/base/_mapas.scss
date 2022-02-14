@@ -1,7 +1,8 @@
+
 $standard: (
 /* key - valor */
-text-color-standard: rgba(0, 0, 0, 0.8),
-bg-color-standard:#eb0000,
+text-color-standard: rgb(0, 0, 0),
+bg-color-standard: rgba(255, 255, 255, 0),
 
 font-standard: 40px,
 transition: all 4s ease,
@@ -11,12 +12,14 @@ transition: all 4s ease,
 
 $premium: (
 /* key - valor */
-text-color-premium: #Cccc,
-bg-color-premium:#b2d6f9,
+text-color-premium:#c4c4c4,
+bg-color-premium:#c4c4c4,
 
 font-standard: 40px,
 
 transition: all 4s ease,
 );
 
-.standard { background-color: map-get($standard,bg-color-standard);}
+.h6 { background-color: map-get($standard,bg-color-standard)
+
+}

@@ -1,5 +1,31 @@
-/*@import"./base/mapas";
-*/
+.h6 {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.wrapper {
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+.wrapper .whatsapp:hover span,
+.wrapper .whatsapp:hover .tooltip,
+.wrapper .whatsapp:hover .tooltip:before {
+  background: #20ff02;
+}
+
+.wrapper .instagram:hover span,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip:before {
+  background: #ff52e2;
+}
+
+.wrapper .icon:hover span {
+  color: #ffff;
+}
+
 @media only screen and (max-width: 480px) {
   .bodyy {
     background-color: #ffffff;
@@ -19,17 +45,69 @@
   font-family: Arial;
 }
 
-.index1 {
+.lista {
+  list-style-type: none;
+}
+
+.roww {
+  display: flex;
+}
+
+.h6 {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.detalles {
+  background-color: rgba(255, 255, 255, 0);
   padding-top: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   align-content: center;
   font-family: Arial;
+  font-size: 40px;
 }
 
-.lista {
-  list-style-type: none;
+.index1 {
+  color: #47003e;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  font-family: Arial;
+  font-size: 50px;
+}
+
+.titulos2 {
+  color: #47003e;
+  padding-top: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  font-family: Arial;
+  font-size: 35px;
+}
+
+.titulos3 {
+  color: #47003e;
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  font-family: Arial;
+  font-size: 35px;
+}
+
+.coll {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: inherit;
+  font-size: 20px;
 }
 
 #carouselWithControls {
@@ -42,14 +120,6 @@
 
 .navbar-light .navbar-nav .nav-link {
   color: black;
-}
-
-.wrapper {
-  padding-right: 20px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: flex-end;
 }
 
 .wrapper .icon {
@@ -68,9 +138,9 @@
   z-index: 2;
   height: 60px;
   width: 60px;
-  background: #fff;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
+  background: #fac5f1;
+  box-shadow: 0 10px 10px black;
+  border-radius: 100%;
   text-align: center;
   transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
@@ -83,8 +153,8 @@
 .wrapper .icon .tooltip {
   position: absolute;
   top: 0px;
-  background: #fff;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  background: #fac5f1;
+  box-shadow: 0 10px 10px black;
   font-size: 20px;
   padding: 10px 18px;
   border-radius: 25px;
@@ -103,36 +173,24 @@
 .wrapper .icon .tooltip:before {
   position: absolute;
   content: "";
-  height: 15px;
-  width: 15px;
-  bottom: -8px;
+  height: 20px;
+  width: 20px;
+  bottom: -10px;
   left: 50%;
   transform: translateX(-50%) rotate(45deg);
 }
 
 .wrapper .icon:hover span,
 .wrapp .icon:hover .tooltip {
-  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+  text-shadow: 0px -1px 0px black;
 }
 
-.wrapper .icon:hover span {
-  color: #fff;
-}
-
-.wrapper .instagram:hover span,
-.wrapper .instagram:hover .tooltip,
-.wrapper .instagram:hover .tooltip:before {
-  background: #ff00ea;
-}
-
-.wrapper .whatsapp:hover span,
-.wrapper .whatsapp:hover .tooltip,
-.wrapper .whatsapp:hover .tooltip:before {
-  background: #20ff02;
+.productosfooter {
+  padding-top: 40px;
 }
 
 .container {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .caption {
@@ -143,6 +201,5 @@
   height: 200px;
   width: 200px;
 }
-
 
 /*# sourceMappingURL=style.css.map */

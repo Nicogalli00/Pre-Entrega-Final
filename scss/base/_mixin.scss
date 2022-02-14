@@ -1,0 +1,44 @@
+@import "../base/mapas"; 
+
+
+@mixin detalles ($alto , $color,$letra){
+    color:$color;
+    padding-top: $alto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    font-family: Arial;
+    font-size: $letra;  
+  }
+@mixin usuario ($color,$letra) { 
+     color: $color;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: inherit;
+    font-size: $letra; 
+  
+}
+.detalles { background-color: map-get($standard,bg-color-standard);
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  font-family: Arial;
+  font-size: 40px; 
+
+
+}
+  
+
+
+.index1{ @include detalles(20px, #47003e, 50px);}
+
+.titulos2 { @include detalles (0px, #47003e, 35px);}
+
+.titulos3 { @include detalles (16px, #47003e, 35px);}
+
+
+.coll { @include usuario (black,20px) ;}
