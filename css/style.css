@@ -29,18 +29,24 @@
   color: #ffff;
 }
 
+/* Mobile styles */
+/* regla @media */
+/*media type */
+/*media features*/
 @media only screen and (max-width: 480px) {
-  .bodyy {
+  body {
     background-color: #ffffff;
   }
 }
+/*Tablet*/
 @media only screen and (min-width: 481px) and (max-width: 968px) {
-  .bodyy {
+  body {
     background-color: #ffffff;
   }
 }
+/* desktop */
 @media only screen and (min-width: 969px) {
-  .bodyy {
+  body {
     background-color: #ffffff;
   }
 }
